@@ -30,6 +30,9 @@ if today in birthdays_dict:
         # Less secure apps access and turn that on, A critical alert will be sent to your email
         # I highly recommend not using your official google account for this program,
         # make a new account to just do this.
+        # If you still get errors at this point
+        # Try to go through the Gmail Captcha here
+        # while logged in to the Gmail account: https://accounts.google.com/DisplayUnlockCaptcha
         # Also don't hesitate to shoot me a dm on Twitter incase of any questions, @lynnemunini
         # That said, enter your account password below
         password = ""
