@@ -2,6 +2,7 @@ import smtplib
 import pandas
 import random
 import datetime as dt
+
 now = dt.datetime.now()
 today_month = now.month
 today_day = now.day
@@ -35,7 +36,7 @@ if today in birthdays_dict:
         # while logged in to the Gmail account: https://accounts.google.com/DisplayUnlockCaptcha
         # Also don't hesitate to shoot me a dm on Twitter incase of any questions, @lynnemunini
         # That said, enter your account password below
-        password = ""
+        password = "@26041978"
         # Make sure you've got the correct smtp address for your email provider
         # Gmail: smtp.gmail.com
         # Hotmail: smtp.live.com
