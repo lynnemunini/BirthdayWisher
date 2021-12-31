@@ -21,7 +21,7 @@ if today in birthdays_dict:
         # Read from the letter
         letter = letter.read()
         new_letter = letter.replace("[NAME]", person["name"])
-        my_email = "misslynnemunini@gmail.com"
+        my_email = ""
         # Removed my password for security purposes, for the code to work enter you account password below
         # This method only applies to gmail account
         # For Yahoo and hotmail accounts i'll share on the ReadMe
@@ -36,7 +36,7 @@ if today in birthdays_dict:
         # while logged in to the Gmail account: https://accounts.google.com/DisplayUnlockCaptcha
         # Also don't hesitate to shoot me a dm on Twitter incase of any questions, @lynnemunini
         # That said, enter your account password below
-        password = "@26041978"
+        password = ""
         # Make sure you've got the correct smtp address for your email provider
         # Gmail: smtp.gmail.com
         # Hotmail: smtp.live.com
